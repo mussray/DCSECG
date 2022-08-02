@@ -15,7 +15,7 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 def main():
     global args
     args = parser.parse_args()
-    setup_seed(1)
+    setup_seed(3)
 
     # Create save directory
     if not os.path.exists(args.save_dir):
